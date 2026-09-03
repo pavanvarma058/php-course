@@ -1,5 +1,38 @@
 <?php
 $output = null;
+
+// Get Year
+$output = date('Y');
+
+// Get year from timestamp
+$output = date('Y', 936345600);
+
+// Get timestamp from strtotime
+$output = date('Y', strtotime('2020-09-01'));
+
+// Get month
+$output = date('m');
+
+// Get day
+$output = date('D'); // Thu
+$output = date('l'); // get full day like;- Thursday
+
+// Get month, day and year
+$output = date('d-m-Y');
+
+// Get hour
+$output = date('h');
+
+// Get min
+$output = date('i');
+
+// Get sec
+$output = date('s');
+
+// Get am/pm
+$output = date('a');
+
+$output = date('h:i:s a')
 ?>
 
 <!DOCTYPE html>
