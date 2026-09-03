@@ -1,5 +1,36 @@
 <?php
 $output = null;
+$string = 'hello world!';
+
+// strlen
+$output = strlen($string);
+
+// str_word_count
+$output = str_word_count($string);
+
+// strpos
+$output = strpos($string, 'Hello');
+
+// Get specific character by index
+$output = $string[4];
+
+// substr
+$output = substr($string, 6, 5);
+
+// str_replace
+$output = str_replace("World", "php", $string);
+
+// strtolower
+$output = strtolower($string);
+
+// strtoupper
+$output = strtoupper($string);
+
+// ucwords
+$output = ucwords($string);
+
+// trim - to get rid of the spaces
+$output = trim('   Hello World    ');
 ?>
 
 <!DOCTYPE html>
