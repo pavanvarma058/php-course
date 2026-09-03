@@ -9,6 +9,14 @@
 | `/`      | Division       |
 | `%`      | Modulus        |
 */
+
+$output = abs(-4.7);
+
+// max() and min()
+$output = max(1, 2, 3, 5, 8, 99);
+$output = min(1, 2, 3, 5, 8, 99);
+
+$output = number_format(12345678.1921, 1, '.', ',');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +37,7 @@
   <div class="container mx-auto p-4 mt-4">
     <div class="bg-white rounded-lg shadow-md p-6 mt-6">
       <!-- Output -->
+        <?php  echo $output; ?>
     </div>
   </div>
 </body>
